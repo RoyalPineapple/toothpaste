@@ -1,0 +1,18 @@
+name: Toothpaste
+options:
+  bundleIdPrefix: com.royalpineapple
+targets:
+  Toothpaste:
+    type: application
+    platform: macOS
+    deploymentTarget: "27.0"
+    sources:
+      - path: Toothpaste
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.royalpineapple.toothpaste
+        PRODUCT_NAME: Transparent Toothpaste
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_CFBundleDisplayName: Transparent Toothpaste
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: 6.0

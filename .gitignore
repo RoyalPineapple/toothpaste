@@ -1,0 +1,15 @@
+.DS_Store
+.context/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.otf
+*.ttf
+*.metallib
+.env
+.env.*
+*.pem
+*.p8
+*.p12
+*.key
+*.mobileprovision

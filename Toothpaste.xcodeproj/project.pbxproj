@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC0CA455931A49FB38B9815 /* Toothpaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA7489E16545A5A1434E39 /* Toothpaste.swift */; };
+		277F1EE55CA9706EBD4AB465 /* ToothpasteExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2BBF12D6BE9DC58BD7267 /* ToothpasteExporter.swift */; };
+		3F8CAA18E063AB73FB0E713D /* ToothpasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9B5E4BD3C5DE979A66513 /* ToothpasteApp.swift */; };
+		884F1A45801E4CB23298BD8F /* DepthMap.metal in Sources */ = {isa = PBXBuildFile; fileRef = 30A846CC2EB3186E74330194 /* DepthMap.metal */; };
+		B4200FC33F2F87A719AA134C /* MetalToothpasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8940C47A21C6E6E34B370 /* MetalToothpasteView.swift */; };
+		DEED310D13AB710FBE2620A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99E60B5A75B7280C0F5117F /* Assets.xcassets */; };
+		FB60F2820AB506534A7E4852 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29198E31EEE0814201246FCC /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BFA7489E16545A5A1434E39 /* Toothpaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toothpaste.swift; sourceTree = "<group>"; };
+		29198E31EEE0814201246FCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BF2BBF12D6BE9DC58BD7267 /* ToothpasteExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothpasteExporter.swift; sourceTree = "<group>"; };
+		30A846CC2EB3186E74330194 /* DepthMap.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = DepthMap.metal; sourceTree = "<group>"; };
+		35B8940C47A21C6E6E34B370 /* MetalToothpasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalToothpasteView.swift; sourceTree = "<group>"; };
+		A99E60B5A75B7280C0F5117F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC9B5E4BD3C5DE979A66513 /* ToothpasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothpasteApp.swift; sourceTree = "<group>"; };
+		EC0EB76E38B85C2B528E33D0 /* Toothpaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toothpaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AB2028F9347050389AAA74C = {
+			isa = PBXGroup;
+			children = (
+				8CDC80E90D411F0449C465C5 /* Toothpaste */,
+				F8AAE0C11634EE0DFD708CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDC80E90D411F0449C465C5 /* Toothpaste */ = {
+			isa = PBXGroup;
+			children = (
+				A99E60B5A75B7280C0F5117F /* Assets.xcassets */,
+				29198E31EEE0814201246FCC /* ContentView.swift */,
+				30A846CC2EB3186E74330194 /* DepthMap.metal */,
+				35B8940C47A21C6E6E34B370 /* MetalToothpasteView.swift */,
+				1BFA7489E16545A5A1434E39 /* Toothpaste.swift */,
+				DDC9B5E4BD3C5DE979A66513 /* ToothpasteApp.swift */,
+				2BF2BBF12D6BE9DC58BD7267 /* ToothpasteExporter.swift */,
+			);
+			path = Toothpaste;
+			sourceTree = "<group>";
+		};
+		F8AAE0C11634EE0DFD708CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0EB76E38B85C2B528E33D0 /* Toothpaste.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F558B190CB69A5C10B36A70 /* Toothpaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3022D088ABBF75AC30210506 /* Build configuration list for PBXNativeTarget "Toothpaste" */;
+			buildPhases = (
+				6C7A5245004E6AA7ABD76541 /* Sources */,
+				D1577BBCBC0011CC23D9EE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toothpaste;
+			packageProductDependencies = (
+			);
+			productName = Toothpaste;
+			productReference = EC0EB76E38B85C2B528E33D0 /* Toothpaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC551BFF9C50F4908068673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = BBE8DE7073AC9098CD24F7FF /* Build configuration list for PBXProject "Toothpaste" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1AB2028F9347050389AAA74C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8AAE0C11634EE0DFD708CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F558B190CB69A5C10B36A70 /* Toothpaste */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1577BBCBC0011CC23D9EE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEED310D13AB710FBE2620A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7A5245004E6AA7ABD76541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB60F2820AB506534A7E4852 /* ContentView.swift in Sources */,
+				884F1A45801E4CB23298BD8F /* DepthMap.metal in Sources */,
+				B4200FC33F2F87A719AA134C /* MetalToothpasteView.swift in Sources */,
+				1AC0CA455931A49FB38B9815 /* Toothpaste.swift in Sources */,
+				3F8CAA18E063AB73FB0E713D /* ToothpasteApp.swift in Sources */,
+				277F1EE55CA9706EBD4AB465 /* ToothpasteExporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EEBAC95D7633EE3771C14D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		60B3E0981D46FF02E1551ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Transparent Toothpaste";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalpineapple.toothpaste;
+				PRODUCT_NAME = "Transparent Toothpaste";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		63B589A1FF000D90E1C7DAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Transparent Toothpaste";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalpineapple.toothpaste;
+				PRODUCT_NAME = "Transparent Toothpaste";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		DCF8776AE36920357D4F82A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3022D088ABBF75AC30210506 /* Build configuration list for PBXNativeTarget "Toothpaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B3E0981D46FF02E1551ABA /* Debug */,
+				63B589A1FF000D90E1C7DAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBE8DE7073AC9098CD24F7FF /* Build configuration list for PBXProject "Toothpaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF8776AE36920357D4F82A5 /* Debug */,
+				0EEBAC95D7633EE3771C14D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC551BFF9C50F4908068673 /* Project object */;
+}
